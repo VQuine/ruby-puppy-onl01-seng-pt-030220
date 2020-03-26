@@ -18,10 +18,14 @@ class Dog
     @@all
   end
 
-  def self.clear_all
-    # @@all = [] #<----redefine the variable
-    # @@all.clear #<----use Ruby's built-in method #CLEAR to clear array
-     self.all.clear # <----e l e g a n t , DOGclass > ALLmethod > built in #CLEARmethod
+  # def self.clear_all
+  #   # @@all = [] #<----redefine the variable
+  #   # @@all.clear #<----use Ruby's built-in method #CLEAR to clear array
+  #    self.all.clear # <----e l e g a n t , DOGclass > ALLmethod > built in #CLEARmethod
+  # end
+
+  def clear_all
+    all.clear
   end
 
   def self.print_all
