@@ -24,7 +24,7 @@ class Dog
   #    self.all.clear # <----e l e g a n t , DOGclass > ALLmethod > built in #CLEARmethod
   # end
 
-  def clear_all
+  def self.clear_all
     self.class.all.clear
   end
 
