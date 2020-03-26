@@ -22,7 +22,7 @@ class Dog
     # @@all = [] #<----redefine the variable
     # @@all.clear #<----use Ruby's built-in method #CLEAR to clear array
     # self.all.clear #<----e l e g a n t , DOGclass > ALLmethod > built in #CLEARmethod
-     all.clear #<---- THE MOST ELEGANT IN A L L THE L A N D, because SELF is redundant or whatever..
+     all.clear #<---- THE MOST ELEGANT IN A L L THE L A N D, because the SELF is IMPLICIT
   end
 
 
